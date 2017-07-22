@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5436EEF21DEE01A2002FBF62 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5436EEF11DEE01A2002FBF62 /* LaunchView.m */; };
+		5436EEF51DEE0CF6002FBF62 /* MainScreen2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5436EEF41DEE0CF6002FBF62 /* MainScreen2.m */; };
+		800ECC8418BC46AE00A23A99 /* DatePopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800ECC8318BC46AE00A23A99 /* DatePopoverController.m */; };
+		806E73CC18DE27A200CCA03D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806E73CB18DE27A200CCA03D /* MessageUI.framework */; };
+		8075ED371B349C450068B59C /* NameEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8075ED361B349C450068B59C /* NameEntry.m */; };
+		80A5C0491CFA419100B21E66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5C0481CFA419100B21E66 /* AudioToolbox.framework */; };
+		80B023E31B38E12E00FABFB5 /* SummarySheetNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B023E21B38E12E00FABFB5 /* SummarySheetNames.m */; };
+		80B023E61B38E32E00FABFB5 /* SummarySheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B023E51B38E32E00FABFB5 /* SummarySheet.m */; };
+		80B0D3F417E2BA1E00C48655 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B0D3F317E2BA1E00C48655 /* MainScreen.m */; };
+		80B0D3F717E2BA3F00C48655 /* AdministrationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B0D3F617E2BA3F00C48655 /* AdministrationScreen.m */; };
+		80B0D3FD17E2BF3200C48655 /* ButtonPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B0D3FC17E2BF3200C48655 /* ButtonPress.m */; };
+		80B518CD18492E75002BEAF2 /* CodeAndNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B518CC18492E75002BEAF2 /* CodeAndNames.m */; };
+		80B6AEDE181AF43800A92F5B /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B6AEDD181AF43800A92F5B /* DataStore.m */; };
+		80B6AEE1181B163E00A92F5B /* ActivityChoices.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B6AEE0181B163E00A92F5B /* ActivityChoices.m */; };
+		80D27F9D17C00D2E0007E480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D27F9C17C00D2E0007E480 /* UIKit.framework */; };
+		80D27F9F17C00D2E0007E480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D27F9E17C00D2E0007E480 /* Foundation.framework */; };
+		80D27FA117C00D2E0007E480 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D27FA017C00D2E0007E480 /* CoreGraphics.framework */; };
+		80D27FA717C00D2E0007E480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FA517C00D2E0007E480 /* InfoPlist.strings */; };
+		80D27FA917C00D2E0007E480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D27FA817C00D2E0007E480 /* main.m */; };
+		80D27FAD17C00D2E0007E480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D27FAC17C00D2E0007E480 /* AppDelegate.m */; };
+		80D27FAF17C00D2E0007E480 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FAE17C00D2E0007E480 /* Default.png */; };
+		80D27FB117C00D2E0007E480 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FB017C00D2E0007E480 /* Default@2x.png */; };
+		80D27FB317C00D2E0007E480 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FB217C00D2E0007E480 /* Default-568h@2x.png */; };
+		80D27FB617C00D2E0007E480 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FB417C00D2E0007E480 /* MainStoryboard.storyboard */; };
+		80D27FB917C00D2E0007E480 /* TallySheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D27FB817C00D2E0007E480 /* TallySheet.m */; };
+		80D27FC417C00DC20007E480 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FC317C00DC20007E480 /* Default-Portrait~ipad.png */; };
+		80D27FC617C00DC60007E480 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FC517C00DC60007E480 /* Default-Portrait@2x~ipad.png */; };
+		80D27FC817C00DF80007E480 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FC717C00DF80007E480 /* Default-Landscape~ipad.png */; };
+		80D27FCA17C00DFC0007E480 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D27FC917C00DFC0007E480 /* Default-Landscape@2x~ipad.png */; };
+		80EB34B21CFE331900593D7F /* TimeoutRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB34B11CFE331900593D7F /* TimeoutRecord.m */; };
+		80F2CD34195DFAA3007B52AD /* summer-max-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F2CD32195DFAA3007B52AD /* summer-max-logo.png */; };
+		80F2CD35195DFAA3007B52AD /* summer-max-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F2CD33195DFAA3007B52AD /* summer-max-logo@2x.png */; };
+		80FFDECD18835BF400629B76 /* tiny-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FFDECB18835BF400629B76 /* tiny-button.png */; };
+		80FFDECE18835BF400629B76 /* tiny-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FFDECC18835BF400629B76 /* tiny-button@2x.png */; };
+		80FFDED11883792100629B76 /* large-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FFDECF1883792100629B76 /* large-button.png */; };
+		80FFDED21883792100629B76 /* large-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FFDED01883792100629B76 /* large-button@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5436EEF01DEE01A2002FBF62 /* LaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchView.h; sourceTree = "<group>"; };
+		5436EEF11DEE01A2002FBF62 /* LaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchView.m; sourceTree = "<group>"; };
+		5436EEF31DEE0CF6002FBF62 /* MainScreen2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen2.h; sourceTree = "<group>"; };
+		5436EEF41DEE0CF6002FBF62 /* MainScreen2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen2.m; sourceTree = "<group>"; };
+		800ECC8218BC46AE00A23A99 /* DatePopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePopoverController.h; sourceTree = "<group>"; };
+		800ECC8318BC46AE00A23A99 /* DatePopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePopoverController.m; sourceTree = "<group>"; };
+		806E73CB18DE27A200CCA03D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8075ED351B349C450068B59C /* NameEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEntry.h; sourceTree = "<group>"; };
+		8075ED361B349C450068B59C /* NameEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEntry.m; sourceTree = "<group>"; };
+		80A5C0481CFA419100B21E66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		80B023E11B38E12E00FABFB5 /* SummarySheetNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummarySheetNames.h; sourceTree = "<group>"; };
+		80B023E21B38E12E00FABFB5 /* SummarySheetNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummarySheetNames.m; sourceTree = "<group>"; };
+		80B023E41B38E32E00FABFB5 /* SummarySheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummarySheet.h; sourceTree = "<group>"; };
+		80B023E51B38E32E00FABFB5 /* SummarySheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummarySheet.m; sourceTree = "<group>"; };
+		80B0D3F217E2BA1E00C48655 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		80B0D3F317E2BA1E00C48655 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		80B0D3F517E2BA3F00C48655 /* AdministrationScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdministrationScreen.h; sourceTree = "<group>"; };
+		80B0D3F617E2BA3F00C48655 /* AdministrationScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdministrationScreen.m; sourceTree = "<group>"; };
+		80B0D3FB17E2BF3200C48655 /* ButtonPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonPress.h; path = ../ButtonPress.h; sourceTree = "<group>"; };
+		80B0D3FC17E2BF3200C48655 /* ButtonPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonPress.m; path = ../ButtonPress.m; sourceTree = "<group>"; };
+		80B518CB18492E75002BEAF2 /* CodeAndNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAndNames.h; sourceTree = "<group>"; };
+		80B518CC18492E75002BEAF2 /* CodeAndNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAndNames.m; sourceTree = "<group>"; };
+		80B6AEDC181AF43800A92F5B /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		80B6AEDD181AF43800A92F5B /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		80B6AEDF181B163D00A92F5B /* ActivityChoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityChoices.h; sourceTree = "<group>"; };
+		80B6AEE0181B163E00A92F5B /* ActivityChoices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityChoices.m; sourceTree = "<group>"; };
+		80D27F9917C00D2E0007E480 /* IAR Summer Max.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IAR Summer Max.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D27F9C17C00D2E0007E480 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80D27F9E17C00D2E0007E480 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80D27FA017C00D2E0007E480 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80D27FA417C00D2E0007E480 /* IAR Summer Max-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IAR Summer Max-Info.plist"; sourceTree = "<group>"; };
+		80D27FA617C00D2E0007E480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80D27FA817C00D2E0007E480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D27FAA17C00D2E0007E480 /* IAR Summer Max-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAR Summer Max-Prefix.pch"; sourceTree = "<group>"; };
+		80D27FAB17C00D2E0007E480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D27FAC17C00D2E0007E480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D27FAE17C00D2E0007E480 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80D27FB017C00D2E0007E480 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80D27FB217C00D2E0007E480 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80D27FB517C00D2E0007E480 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		80D27FB717C00D2E0007E480 /* TallySheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TallySheet.h; sourceTree = "<group>"; };
+		80D27FB817C00D2E0007E480 /* TallySheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TallySheet.m; sourceTree = "<group>"; };
+		80D27FC317C00DC20007E480 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		80D27FC517C00DC60007E480 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		80D27FC717C00DF80007E480 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		80D27FC917C00DFC0007E480 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		80EB34B01CFE32F800593D7F /* TimeoutRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeoutRecord.h; sourceTree = "<group>"; };
+		80EB34B11CFE331900593D7F /* TimeoutRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeoutRecord.m; sourceTree = "<group>"; };
+		80F2CD32195DFAA3007B52AD /* summer-max-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer-max-logo.png"; sourceTree = "<group>"; };
+		80F2CD33195DFAA3007B52AD /* summer-max-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer-max-logo@2x.png"; sourceTree = "<group>"; };
+		80FFDECB18835BF400629B76 /* tiny-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiny-button.png"; sourceTree = "<group>"; };
+		80FFDECC18835BF400629B76 /* tiny-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiny-button@2x.png"; sourceTree = "<group>"; };
+		80FFDECF1883792100629B76 /* large-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "large-button.png"; sourceTree = "<group>"; };
+		80FFDED01883792100629B76 /* large-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "large-button@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D27F9617C00D2E0007E480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A5C0491CFA419100B21E66 /* AudioToolbox.framework in Frameworks */,
+				806E73CC18DE27A200CCA03D /* MessageUI.framework in Frameworks */,
+				80D27F9D17C00D2E0007E480 /* UIKit.framework in Frameworks */,
+				80D27F9F17C00D2E0007E480 /* Foundation.framework in Frameworks */,
+				80D27FA117C00D2E0007E480 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D27F9017C00D2E0007E480 = {
+			isa = PBXGroup;
+			children = (
+				80D27FC917C00DFC0007E480 /* Default-Landscape@2x~ipad.png */,
+				80D27FC717C00DF80007E480 /* Default-Landscape~ipad.png */,
+				80D27FC517C00DC60007E480 /* Default-Portrait@2x~ipad.png */,
+				80D27FC317C00DC20007E480 /* Default-Portrait~ipad.png */,
+				80F2CD32195DFAA3007B52AD /* summer-max-logo.png */,
+				80F2CD33195DFAA3007B52AD /* summer-max-logo@2x.png */,
+				80FFDECB18835BF400629B76 /* tiny-button.png */,
+				80FFDECC18835BF400629B76 /* tiny-button@2x.png */,
+				80FFDECF1883792100629B76 /* large-button.png */,
+				80FFDED01883792100629B76 /* large-button@2x.png */,
+				80D27FA217C00D2E0007E480 /* IAR Point Sheet */,
+				80D27F9B17C00D2E0007E480 /* Frameworks */,
+				80D27F9A17C00D2E0007E480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D27F9A17C00D2E0007E480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D27F9917C00D2E0007E480 /* IAR Summer Max.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D27F9B17C00D2E0007E480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A5C0481CFA419100B21E66 /* AudioToolbox.framework */,
+				806E73CB18DE27A200CCA03D /* MessageUI.framework */,
+				80D27F9C17C00D2E0007E480 /* UIKit.framework */,
+				80D27F9E17C00D2E0007E480 /* Foundation.framework */,
+				80D27FA017C00D2E0007E480 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D27FA217C00D2E0007E480 /* IAR Point Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				80B6AEDF181B163D00A92F5B /* ActivityChoices.h */,
+				80B6AEE0181B163E00A92F5B /* ActivityChoices.m */,
+				80B0D3F517E2BA3F00C48655 /* AdministrationScreen.h */,
+				80B0D3F617E2BA3F00C48655 /* AdministrationScreen.m */,
+				80D27FAB17C00D2E0007E480 /* AppDelegate.h */,
+				80D27FAC17C00D2E0007E480 /* AppDelegate.m */,
+				5436EEF01DEE01A2002FBF62 /* LaunchView.h */,
+				5436EEF11DEE01A2002FBF62 /* LaunchView.m */,
+				80B0D3FB17E2BF3200C48655 /* ButtonPress.h */,
+				80B0D3FC17E2BF3200C48655 /* ButtonPress.m */,
+				80B518CB18492E75002BEAF2 /* CodeAndNames.h */,
+				80B518CC18492E75002BEAF2 /* CodeAndNames.m */,
+				80B6AEDC181AF43800A92F5B /* DataStore.h */,
+				80B6AEDD181AF43800A92F5B /* DataStore.m */,
+				5436EEF31DEE0CF6002FBF62 /* MainScreen2.h */,
+				5436EEF41DEE0CF6002FBF62 /* MainScreen2.m */,
+				800ECC8218BC46AE00A23A99 /* DatePopoverController.h */,
+				800ECC8318BC46AE00A23A99 /* DatePopoverController.m */,
+				80B0D3F217E2BA1E00C48655 /* MainScreen.h */,
+				80B0D3F317E2BA1E00C48655 /* MainScreen.m */,
+				80D27FB417C00D2E0007E480 /* MainStoryboard.storyboard */,
+				80B023E41B38E32E00FABFB5 /* SummarySheet.h */,
+				80B023E51B38E32E00FABFB5 /* SummarySheet.m */,
+				80B023E11B38E12E00FABFB5 /* SummarySheetNames.h */,
+				80B023E21B38E12E00FABFB5 /* SummarySheetNames.m */,
+				8075ED351B349C450068B59C /* NameEntry.h */,
+				8075ED361B349C450068B59C /* NameEntry.m */,
+				80D27FA317C00D2E0007E480 /* Supporting Files */,
+				80D27FB717C00D2E0007E480 /* TallySheet.h */,
+				80D27FB817C00D2E0007E480 /* TallySheet.m */,
+				80EB34B01CFE32F800593D7F /* TimeoutRecord.h */,
+				80EB34B11CFE331900593D7F /* TimeoutRecord.m */,
+			);
+			path = "IAR Point Sheet";
+			sourceTree = "<group>";
+		};
+		80D27FA317C00D2E0007E480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D27FA417C00D2E0007E480 /* IAR Summer Max-Info.plist */,
+				80D27FA517C00D2E0007E480 /* InfoPlist.strings */,
+				80D27FA817C00D2E0007E480 /* main.m */,
+				80D27FAA17C00D2E0007E480 /* IAR Summer Max-Prefix.pch */,
+				80D27FAE17C00D2E0007E480 /* Default.png */,
+				80D27FB017C00D2E0007E480 /* Default@2x.png */,
+				80D27FB217C00D2E0007E480 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D27F9817C00D2E0007E480 /* IAR Summer Max */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D27FBC17C00D2E0007E480 /* Build configuration list for PBXNativeTarget "IAR Summer Max" */;
+			buildPhases = (
+				80D27F9517C00D2E0007E480 /* Sources */,
+				80D27F9617C00D2E0007E480 /* Frameworks */,
+				80D27F9717C00D2E0007E480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IAR Summer Max";
+			productName = "IAR Point Sheet";
+			productReference = 80D27F9917C00D2E0007E480 /* IAR Summer Max.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D27F9117C00D2E0007E480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeffrey McConnell";
+				TargetAttributes = {
+					80D27F9817C00D2E0007E480 = {
+						DevelopmentTeam = 22BZSGL5GH;
+					};
+				};
+			};
+			buildConfigurationList = 80D27F9417C00D2E0007E480 /* Build configuration list for PBXProject "IAR Summer Max" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80D27F9017C00D2E0007E480;
+			productRefGroup = 80D27F9A17C00D2E0007E480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D27F9817C00D2E0007E480 /* IAR Summer Max */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D27F9717C00D2E0007E480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FFDED21883792100629B76 /* large-button@2x.png in Resources */,
+				80F2CD35195DFAA3007B52AD /* summer-max-logo@2x.png in Resources */,
+				80D27FA717C00D2E0007E480 /* InfoPlist.strings in Resources */,
+				80D27FAF17C00D2E0007E480 /* Default.png in Resources */,
+				80D27FB117C00D2E0007E480 /* Default@2x.png in Resources */,
+				80D27FB317C00D2E0007E480 /* Default-568h@2x.png in Resources */,
+				80D27FB617C00D2E0007E480 /* MainStoryboard.storyboard in Resources */,
+				80D27FC417C00DC20007E480 /* Default-Portrait~ipad.png in Resources */,
+				80D27FC617C00DC60007E480 /* Default-Portrait@2x~ipad.png in Resources */,
+				80D27FC817C00DF80007E480 /* Default-Landscape~ipad.png in Resources */,
+				80FFDECE18835BF400629B76 /* tiny-button@2x.png in Resources */,
+				80D27FCA17C00DFC0007E480 /* Default-Landscape@2x~ipad.png in Resources */,
+				80FFDED11883792100629B76 /* large-button.png in Resources */,
+				80F2CD34195DFAA3007B52AD /* summer-max-logo.png in Resources */,
+				80FFDECD18835BF400629B76 /* tiny-button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D27F9517C00D2E0007E480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B023E31B38E12E00FABFB5 /* SummarySheetNames.m in Sources */,
+				8075ED371B349C450068B59C /* NameEntry.m in Sources */,
+				80D27FA917C00D2E0007E480 /* main.m in Sources */,
+				80D27FAD17C00D2E0007E480 /* AppDelegate.m in Sources */,
+				5436EEF21DEE01A2002FBF62 /* LaunchView.m in Sources */,
+				80D27FB917C00D2E0007E480 /* TallySheet.m in Sources */,
+				800ECC8418BC46AE00A23A99 /* DatePopoverController.m in Sources */,
+				80EB34B21CFE331900593D7F /* TimeoutRecord.m in Sources */,
+				80B0D3F417E2BA1E00C48655 /* MainScreen.m in Sources */,
+				80B0D3F717E2BA3F00C48655 /* AdministrationScreen.m in Sources */,
+				80B023E61B38E32E00FABFB5 /* SummarySheet.m in Sources */,
+				80B0D3FD17E2BF3200C48655 /* ButtonPress.m in Sources */,
+				80B6AEDE181AF43800A92F5B /* DataStore.m in Sources */,
+				80B6AEE1181B163E00A92F5B /* ActivityChoices.m in Sources */,
+				80B518CD18492E75002BEAF2 /* CodeAndNames.m in Sources */,
+				5436EEF51DEE0CF6002FBF62 /* MainScreen2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80D27FA517C00D2E0007E480 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D27FA617C00D2E0007E480 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80D27FB417C00D2E0007E480 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D27FB517C00D2E0007E480 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D27FBA17C00D2E0007E480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey McConnell (GN5XYB5VDS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey McConnell (GN5XYB5VDS)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		80D27FBB17C00D2E0007E480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey McConnell (GN5XYB5VDS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey McConnell (GN5XYB5VDS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D27FBD17C00D2E0007E480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAR Point Sheet/IAR Summer Max-Prefix.pch";
+				INFOPLIST_FILE = "IAR Point Sheet/IAR Summer Max-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Orchid-Software.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "IAR Summer Max";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80D27FBE17C00D2E0007E480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAR Point Sheet/IAR Summer Max-Prefix.pch";
+				INFOPLIST_FILE = "IAR Point Sheet/IAR Summer Max-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Orchid-Software.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "IAR Summer Max";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D27F9417C00D2E0007E480 /* Build configuration list for PBXProject "IAR Summer Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D27FBA17C00D2E0007E480 /* Debug */,
+				80D27FBB17C00D2E0007E480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D27FBC17C00D2E0007E480 /* Build configuration list for PBXNativeTarget "IAR Summer Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D27FBD17C00D2E0007E480 /* Debug */,
+				80D27FBE17C00D2E0007E480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D27F9117C00D2E0007E480 /* Project object */;
+}
